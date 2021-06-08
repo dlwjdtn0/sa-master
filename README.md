@@ -54,7 +54,7 @@
  ## 코드 구현
 (코드는 수업시간에 구현한 코드입니다.)
 
-아래의 그래프로 나타낸 x * x * x * x + x * x * x - x * x - x + 1 의 전역 최적점을 찾는 코드입니다.
+#### 1. 아래의 그래프로 나타낸 x * x * x * x + x * x * x - x * x - x + 1 의 전역 최적점을 찾는 코드입니다. (코드는 Main, Problem, SimulatedAnnealing-scr 파일 안에 있습니다)
 
 ![c](https://user-images.githubusercontent.com/81748368/121236611-1de1f600-c8d1-11eb-99e0-9b54d496cfc9.PNG)
 
@@ -144,6 +144,8 @@
     boolean isNeighborBetter(double f0, double f1);
 	}
 
+
+#### 2. 파라미터 값을 모의담금질 기법을 이용해서 구현한 코드 (Main2, Problem2, SimulatedAnnealing2)
 
 ----------------------------------------------
 
