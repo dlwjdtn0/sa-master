@@ -58,6 +58,9 @@
  ## 코드 구현
 (코드는 수업시간에 구현한 코드입니다.)
 
+0.1*x*x*x*x-x*x+3 함수의 전역 최적점을 찾는 코드입니다.
+
+
 (Main.java코드)
 
 	public class Main {
@@ -71,7 +74,7 @@
 	    sa.solve(new Problem() {
             @Override
             public double fit(double x) {
-                return 0.16*x*x*x*x -x*x + 0.37*x + 5;
+                return 0.1*x*x*x*x-x*x+3;
             }
 
             @Override
