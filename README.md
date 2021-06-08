@@ -54,7 +54,7 @@
  ## 코드 구현
 (코드는 수업시간에 구현한 코드입니다.)
 
-아래의 그래프로 나타낸 0.1*x*x*x*x-x*x+3 함수의 전역 최적점을 찾는 코드입니다.
+아래의 그래프로 나타낸 (x*x*x*x +x*x*x -x*x -x+1) 의 전역 최적점을 찾는 코드입니다.
 
 ![12](https://user-images.githubusercontent.com/81748368/121231673-a2ca1100-c8cb-11eb-91a4-46c0e8c9258d.PNG)
 
@@ -152,12 +152,11 @@
 
 함수의 전역 최적점을 찾는 코드의 결과는 다음과 같이 나온다.
 
-![13](https://user-images.githubusercontent.com/81748368/121231917-f3da0500-c8cb-11eb-99f6-9fe79c3b76ce.PNG)
-
+![a](https://user-images.githubusercontent.com/81748368/121236310-c5125d80-c8d0-11eb-8d99-29895dc9afc1.PNG)
 
 ...(중간 값들은 너무 많아서 생략)
 
+![b](https://user-images.githubusercontent.com/81748368/121236313-c6438a80-c8d0-11eb-8b68-104e3fef8176.PNG)
 
-![14](https://user-images.githubusercontent.com/81748368/121231912-f3416e80-c8cb-11eb-8b00-f493531c8d8a.PNG)
 
 초기의 값들보다 점점 출력되는 숫자의 차이가 줄어들고 규칙적으로 되는 것을 알 수 있다.
