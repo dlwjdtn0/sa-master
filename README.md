@@ -150,7 +150,6 @@
 
 결과는 다음과 같이 나온다.
 
-![1](https://user-images.githubusercontent.com/81748368/121221376-765cc780-c8c0-11eb-8d75-1563537744fd.PNG)
 
 ![2](https://user-images.githubusercontent.com/81748368/121221380-76f55e00-c8c0-11eb-9797-9e448393fe75.PNG)
 
