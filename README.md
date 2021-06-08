@@ -54,7 +54,7 @@
  ## 코드 구현
 (코드는 수업시간에 구현한 코드입니다.)
 
-#### 1. 아래의 그래프로 나타낸 x * x * x * x + x * x * x - x * x - x + 1 의 전역 최적점을 찾는 코드입니다. (코드는 Main, Problem, SimulatedAnnealing-scr 파일 안에 있습니다)
+#### 1. 아래의 그래프로 나타낸 x * x * x * x + x * x * x - x * x - x + 1 의 전역 최적점을 찾는 코드입니다. (Main, Problem, SimulatedAnnealing - 코드는 src/com/company 파일 안에 있습니다)
 
 ![c](https://user-images.githubusercontent.com/81748368/121236611-1de1f600-c8d1-11eb-99e0-9b54d496cfc9.PNG)
 
@@ -146,6 +146,38 @@
 
 
 #### 2. 파라미터 값을 모의담금질 기법을 이용해서 구현한 코드 (Main2, Problem2, SimulatedAnnealing2)
+
+위의 Main코드와 다른 점은 파라미터 값을 3*x*x -18*x +20 그래프로 나타낸 점이다. 
+
+
+
+    package com.company;
+
+    public class Main2 {
+
+    public static void main(String[] args) {
+
+        // 000000
+        // 010000
+
+        SimulatedAnnealing2 sa = new SimulatedAnnealing2(1, 0.95,100 );
+        sa.solve(new Problem2() {
+            @Override
+            public double fit(double x) { return 3*x*x -18*x +20;
+            }
+
+            @Override
+            public boolean isNeighborBetter(double f0, double f1) {
+                return f1 > f0;
+            }
+        }, 0, 31);
+
+        System.out.println(sa.hist);
+        // x=19, f(x)=441
+    }
+}
+
+
 
 ----------------------------------------------
 
