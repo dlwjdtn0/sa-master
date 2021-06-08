@@ -43,8 +43,6 @@
 
 
 
-
-
  ## 핵심 아이디어
  
  * p는 T에 의해서 변한다. (T가 높으면 p도 크게 할수 있고 T=0이면 p=0으로 해서 s'가 s보다 우수하지 않을 때 s'가 s로 되지 못하게 한다)
@@ -53,10 +51,14 @@
 
 
 
-
-
  ## 코드 구현
 (코드는 수업시간에 구현한 코드입니다.)
+
+아래의 그래프로 나타낸 0.1*x*x*x*x-x*x+3 함수의 전역 최적점을 찾는 코드입니다.
+
+![12](https://user-images.githubusercontent.com/81748368/121231673-a2ca1100-c8cb-11eb-91a4-46c0e8c9258d.PNG)
+
+
 
 (Main.java코드)
 
@@ -71,7 +73,7 @@
 	    sa.solve(new Problem() {
             @Override
             public double fit(double x) {
-                return 0.16*x*x*x*x -x*x + 0.37*x + 5;
+                return 0.1*x*x*x*x-x*x+3;
             }
 
             @Override
@@ -148,23 +150,14 @@
 
 # 결과값
 
-결과는 다음과 같이 나온다.
+함수의 전역 최적점을 찾는 코드의 결과는 다음과 같이 나온다.
 
+![13](https://user-images.githubusercontent.com/81748368/121231917-f3da0500-c8cb-11eb-99f6-9fe79c3b76ce.PNG)
 
-![2](https://user-images.githubusercontent.com/81748368/121221380-76f55e00-c8c0-11eb-9797-9e448393fe75.PNG)
-
-![3](https://user-images.githubusercontent.com/81748368/121221424-81175c80-c8c0-11eb-9eb0-cf36b6761457.PNG)
-
-![4](https://user-images.githubusercontent.com/81748368/121221426-81175c80-c8c0-11eb-8031-f53c3c370828.PNG)
-
-![5](https://user-images.githubusercontent.com/81748368/121221430-81aff300-c8c0-11eb-85cb-e77f7052fa24.PNG)
-
-![6](https://user-images.githubusercontent.com/81748368/121221414-807ec600-c8c0-11eb-8ee8-ced1bb01aa31.PNG)
 
 ...(중간 값들은 너무 많아서 생략)
 
-![11](https://user-images.githubusercontent.com/81748368/121221441-84aae380-c8c0-11eb-9f16-62b9b9159be3.PNG)
 
+![14](https://user-images.githubusercontent.com/81748368/121231912-f3416e80-c8cb-11eb-8b00-f493531c8d8a.PNG)
 
-이렇게 마지막 값까지 출력이 되고 뒤로 갈수록 출력되는 값들의 차이가 줄어들고 규칙적으로 출력됨을 알 수 있다.
-
+초기의 값들보다 점점 출력되는 숫자의 차이가 줄어들고 규칙적으로 되는 것을 알 수 있다.
