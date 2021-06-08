@@ -22,7 +22,7 @@
 
 # 알고리즘
 
- 모의 담금질 기법의 기본 알고리즘
+ ## 모의 담금질 기법의 기본 알고리즘
 
 1.     임의의 후보해 s를 선택  // 임의의 후보해 s 선택하여 탐색 시작
 2.      초기 T를 정한다.       // T는 충분히 높은 값으로 실험을 통해 정해짐
@@ -40,4 +40,37 @@
 
 13.     until (종료 조건이 만족될 때까지)    // 종료조건: 더 이상 우수한 해를 찾지 못함, 미리 정해놓은 repeat 루프의 최대 반복 횟수의 초과 여부
 14.     return s    // repeat 루프가 끝나면 현재 해인 s를 리턴
+
+
+ ## 코드 구현
+(코드는 수업시간에 구현한 코드입니다.)
+ 
+package com.company;
+
+public class Main {
+
+    public static void main(String[] args) {
+
+        // 000000
+        // 010000
+
+	    SimulatedAnnealing sa = new SimulatedAnnealing(1, 0.95, 100);
+	    sa.solve(new Problem() {
+            @Override
+            public double fit(double x) {
+                return 0.16*x*x*x*x -x*x + 0.37*x + 5;
+            }
+
+            @Override
+            public boolean isNeighborBetter(double f0, double f1) {
+                return f1 > f0;
+            }
+        }, 0, 31);
+
+        System.out.println(sa.hist);
+        //double x0=19; double f0=441;
+    }
+}
+
+
 
