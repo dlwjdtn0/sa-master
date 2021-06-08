@@ -147,7 +147,7 @@
 
 #### 2. 파라미터 값을 모의담금질 기법을 이용해서 구현한 코드 (Main2, Problem2, SimulatedAnnealing2)
 
-위의 Main코드와 다른 점은 파라미터 값을 3*x*x -18*x +20 그래프로 나타낸 점이다. 
+위의 Main코드와 다른 점은 Main2에서 파라미터 값을 3 * x * x - 18 * x + 20 그래프로 나타낸 점이고 나머지 코드는 같다. 
 
 ![d](https://user-images.githubusercontent.com/81748368/121244338-b4b2b080-c8d9-11eb-8073-beb7df97d0d7.PNG)
 
