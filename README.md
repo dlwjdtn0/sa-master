@@ -45,8 +45,7 @@
  ## 코드 구현
 (코드는 수업시간에 구현한 코드입니다.)
 
-package com.company;
-
+{
 public class Main {
 
     public static void main(String[] args) {
@@ -70,8 +69,7 @@ public class Main {
         System.out.println(sa.hist);
         //double x0=19; double f0=441;
     }
-}
-
+}}
 
 
 package com.company;
