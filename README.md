@@ -45,7 +45,7 @@
  ## 코드 구현
 (코드는 수업시간에 구현한 코드입니다.)
 
-{
+
 public class Main {
 
     public static void main(String[] args) {
@@ -69,28 +69,27 @@ public class Main {
         System.out.println(sa.hist);
         //double x0=19; double f0=441;
     }
-}}
+}
 
 
-package com.company;
 
-import java.util.ArrayList;
-import java.util.Random;
-
-public class SimulatedAnnealing {
+public class SimulatedAnnealing 
+{
     private double t;   // 초기온도
     private double a;   // 냉각비율
     private int niter;  // 종료조건
     public ArrayList<Double> hist;
 
-    public SimulatedAnnealing(double t, double a, int niter) {
+    public SimulatedAnnealing(double t, double a, int niter) 
+{
         this.t = t;
         this.a = a;
         this.niter = niter;
         hist = new ArrayList<>();
     }
 
-    public double solve(Problem p, double lower, double upper) {
+    public double solve(Problem p, double lower, double upper) 
+{
         Random r = new Random();
         double x0 = r.nextDouble() * (upper - lower) + lower;    // 초기후보해
         double f0 = p.fit(x0);                                   // 초기후보해의 적합도
@@ -121,5 +120,7 @@ public class SimulatedAnnealing {
     }
 }
 
+					   
+					 
 					   
 					   
