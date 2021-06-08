@@ -69,7 +69,7 @@
         System.out.println(sa.hist);
         //double x0=19; double f0=441;
     }
-    }
+}
 
 
 
