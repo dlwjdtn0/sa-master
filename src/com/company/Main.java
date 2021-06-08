@@ -21,6 +21,6 @@ public class Main {
         }, 0, 31);
 
         System.out.println(sa.hist);
-        //double x0=19; double f0=441;
+        // x=19, f(x)=441
     }
 }
