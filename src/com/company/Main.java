@@ -7,11 +7,11 @@ public class Main {
         // 000000
         // 010000
 
-	    SimulatedAnnealing sa = new SimulatedAnnealing(1, 0.95, 100);
-	    sa.solve(new Problem() {
+        SimulatedAnnealing sa = new SimulatedAnnealing(1, 0.95, 100);
+        sa.solve(new Problem() {
             @Override
             public double fit(double x) {
-                return 0.16*x*x*x*x -x*x + 0.37*x + 5;
+                return 0.1*x*x*x*x-x*x+3;
             }
 
             @Override
@@ -22,5 +22,8 @@ public class Main {
 
         System.out.println(sa.hist);
         // x=19, f(x)=441
+
+
+
     }
 }
