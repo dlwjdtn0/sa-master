@@ -43,15 +43,7 @@
 
  ## 핵심 아이디어
  
- # This is a H1
- 
- 
-## This is a H2
-### This is a H3
-#### This is a H4
-##### This is a H5
-###### This is a H6
- p는 T에 의해서 변한다.
+ H1 p는 T에 의해서 변한다.
 
 
  ## 코드 구현
