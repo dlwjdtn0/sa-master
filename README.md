@@ -56,8 +56,7 @@
 
 아래의 그래프로 나타낸 (x*x*x*x +x*x*x -x*x -x+1) 의 전역 최적점을 찾는 코드입니다.
 
-![12](https://user-images.githubusercontent.com/81748368/121231673-a2ca1100-c8cb-11eb-91a4-46c0e8c9258d.PNG)
-
+![c](https://user-images.githubusercontent.com/81748368/121236611-1de1f600-c8d1-11eb-99e0-9b54d496cfc9.PNG)
 
 
 (Main.java코드)
