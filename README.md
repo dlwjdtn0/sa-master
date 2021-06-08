@@ -45,6 +45,7 @@
  ## 코드 구현
 (코드는 수업시간에 구현한 코드입니다.)
 
+(Main.java코드)
 
 	public class Main {
 
@@ -68,10 +69,11 @@
 
         System.out.println(sa.hist);
         //double x0=19; double f0=441;
-    }
-}
+    }}
 
 
+
+(SimulatedAnnealing.java코드)
 
 	public class SimulatedAnnealing 
 	{
