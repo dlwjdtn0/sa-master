@@ -143,7 +143,28 @@
     boolean isNeighborBetter(double f0, double f1);
 	}
 
-					   
-					 
-					   
-					   
+
+----------------------------------------------
+
+# 결과값
+
+결과는 다음과 같이 나온다.
+
+
+![2](https://user-images.githubusercontent.com/81748368/121221380-76f55e00-c8c0-11eb-9797-9e448393fe75.PNG)
+
+![3](https://user-images.githubusercontent.com/81748368/121221424-81175c80-c8c0-11eb-9eb0-cf36b6761457.PNG)
+
+![4](https://user-images.githubusercontent.com/81748368/121221426-81175c80-c8c0-11eb-8031-f53c3c370828.PNG)
+
+![5](https://user-images.githubusercontent.com/81748368/121221430-81aff300-c8c0-11eb-85cb-e77f7052fa24.PNG)
+
+![6](https://user-images.githubusercontent.com/81748368/121221414-807ec600-c8c0-11eb-8ee8-ced1bb01aa31.PNG)
+
+...(중간 값들은 너무 많아서 생략)
+
+![11](https://user-images.githubusercontent.com/81748368/121221441-84aae380-c8c0-11eb-9f16-62b9b9159be3.PNG)
+
+
+이렇게 마지막 값까지 출력이 되고 뒤로 갈수록 출력되는 값들의 차이가 줄어들고 규칙적으로 출력됨을 알 수 있다.
+
