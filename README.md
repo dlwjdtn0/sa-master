@@ -41,6 +41,18 @@
 13.     until (종료 조건이 만족될 때까지)    // 종료조건: 더 이상 우수한 해를 찾지 못함, 미리 정해놓은 repeat 루프의 최대 반복 횟수의 초과 여부
 14.     return s    // repeat 루프가 끝나면 현재 해인 s를 리턴
 
+ ## 핵심 아이디어
+ 
+ # This is a H1
+ 
+ 
+## This is a H2
+### This is a H3
+#### This is a H4
+##### This is a H5
+###### This is a H6
+ p는 T에 의해서 변한다.
+
 
  ## 코드 구현
 (코드는 수업시간에 구현한 코드입니다.)
